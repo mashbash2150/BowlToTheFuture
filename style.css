@@ -1,0 +1,72 @@
+body {
+  background-color: rgba(40, 104, 216, 0.661);
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scorecard {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.player_row {
+  background-color: white;
+  width: 80vw;
+  height: 6vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.names {
+  width: 10vw;
+  height: 6vw;
+  border: 1px solid black;
+}
+
+.frame {
+  display: flex;
+  width: 6vw;
+  height: 6vw;
+  border: 1px solid black;
+}
+
+.total {
+  width: 10vw;
+  height: 6vw;
+  border: 1px solid black;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+}
+
+.row {
+
+  width: 80vw;
+  height: 6vw;
+  border: 1px solid black;
+}
+
+.boxOne {
+  width: 2vw;
+  height: 2vw;
+
+}
+
+.boxTwo {
+  width: 2vw;
+  height: 2vw;
+  border: 1px solid red;
+}
+
+.boxThree {
+  width: 2vw;
+  height: 2vw;
+  border: 1px solid red;
+}
